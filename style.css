@@ -1,12 +1,11 @@
 body {
     overflow-x: hidden;
+    margin: 0;
 }
 
 header{
-    padding-top: 30px;
     width: 80%;
     margin-inline: auto;
-    margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,6 +13,7 @@ header{
 
 h1 {
     font-family: 'Inconsolata', monospace;
+    padding-top: 20px;
     font-size: 24px;
     font-weight: 700;
     line-height: 25px;
@@ -33,6 +33,7 @@ h1 {
             auto-fit,
             minmax(200px, 1fr)
         );
+    height: 88vh;
 }
 
 .contenedor-central .info{
@@ -76,8 +77,6 @@ p{
 
 .footer {
     width: 100%;
-    position: absolute;
-    bottom: 5px;
 }
 
 .footer h3{
